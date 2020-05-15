@@ -3,31 +3,31 @@ h1{
     font-family: Noto Sans, sans-serif;
     text-shadow: 2px 2px 1px white;
     background-color: #726578;
+    color: black;
 }
 .img1{
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     alt: Instagram;
     float: right;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .img2{
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     alt: Telegram;
     float: right;
     margin-right: 5px;
-    margin-top: 10px;
-    
+    margin-top: 15px; 
 }
 .img3{
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     alt: Gmail;
     float: right;
     margin-right: 5px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 
