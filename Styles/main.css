@@ -1,10 +1,10 @@
 body{
     background-color: cornsilk;
 }
-h1{
+p{
     font-size: 55px;
-    font-family: Noto Sans, sans-serif;
-    text-shadow: 2px 2px 1px white;
+    font-family: Monotype Corsiva,sans-serif;
+    /*text-shadow: 2px 2px 1px white;*/
     background-color: #726578;
     color: black;
 }
@@ -17,12 +17,12 @@ h1{
     margin-top: 15px;
 }
 .img2{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     alt: Telegram;
     float: right;
     margin-right: 5px;
-    margin-top: 15px; 
+    margin-top: 10px; 
 }
 .img3{
     width: 35px;
