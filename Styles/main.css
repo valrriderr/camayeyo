@@ -2,6 +2,7 @@ body{
     background-color: cornsilk;
 }
 p{
+    margin-top: 0px;
     font-size: 55px;
     font-family: Monotype Corsiva,sans-serif;
     /*text-shadow: 2px 2px 1px white;*/
