@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <title>Kamila Portfolio</title>
-    <link rel='stylesheet' type='text/css' href='Styles/main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-    <div><p>Мажитова Камила<a href="https://www.instagram.com/tyocama/"><img class="img1" src="instagram.png"></a>
-        <a href="https://www.t.me/camayeyo/"><img class="img2" src="Telegram.png"></a>
-        <a href="mailto:tyocama@gmail.com"><img class="img3" src="Gmail.png" alt="Gmail"></a></p></div>
-        
-    <!--<img class="class1" src=Foto2.jpg alt="Kamila's Foto">-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Camayeyo</title>
+        <link rel='stylesheet' type='text/css' href='main.css'>
+    </head>
+    <body>
+        <section class="banner" id="sec">
+        <header>
+            <a href="" class="logo">Camayeyo</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Привет,<br>Я <span>Мажитова Камила</span></h2>
+            <p>Lorem Ipsum - это текст-"рыба", часто 
+                используемый в печати и вэб-дизайне. ... Его популяризации в новое время послужили публикация листов
+                Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, 
+                в шаблонах которых используется Lorem Ipsum</p>
+            <a href="">Узнать больше</a>    
+        </div>
+        <ul class="sci">
+            <li><a href=""><img src="instagram.png"></a></li>
+            <li><a href=""><img src="gmail.png"></a></li>
+            <li><a href=""><img src="telegram.png"></a></li>
+        </ul>
+        </section>
+        <div id="navigation">
+            <ul>
+                <li><a href="">В начало</a></li>
+                <li><a href="">Обо мне</a></li>
+                <li><a href="">Мои работы</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+        </div>  
+        <script type="text/javascript">
+            function toggle() {
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
