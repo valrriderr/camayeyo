@@ -142,7 +142,7 @@ header .logo{
     }
     .container .box2{
         width: calc(300px - 30px);
-        height: calc(315px - 30px);
+        height: calc(415px - 30px);
         margin: 15px auto;
         float: none;
     }
