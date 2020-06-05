@@ -11,10 +11,10 @@ header{
     left: 0;
     right: 0;
     bottom: 15px;
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
-    padding: 30px 0 0 110px;
+    padding: 20px 0 0 90px;
 }
 header .logo{
     position: relative;
