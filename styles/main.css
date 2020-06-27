@@ -77,7 +77,7 @@ header #toggle:after{
 {
     transform: translate(-400px);
 }
-#navigation{
+/*#navigation{
     position: fixed;
     top: 0;
     right: 0;
@@ -107,7 +107,7 @@ header #toggle:after{
     font-size: 2em;
     font-weight: 600;
     text-transform: uppercase;
-}
+}*/
 .content{
     max-width: 600px;
 }
@@ -180,13 +180,13 @@ header #toggle:after{
     .banner.active{
         transform: translateX(-250px);
     }
-    #navigation{
+    /*#navigation{
         width: 250px;
     }
     #navigation ul li a{
         font-size: 1.5em;
         margin: 5px 0;
-    }
+    }*/
     .sci{
         position: absolute;
         bottom: 50px;
