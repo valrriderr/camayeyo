@@ -1,0 +1,25 @@
+#home .contenten{
+  width: 100%;
+  color: #fff;
+}
+
+#home .contenten h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-family: 'Libre Caslon Display', serif;
+  color: #2F4F4F;
+}
+
+#home .contenten h1::after{
+  content: "Artist";
+  animation: textanim 10s linear infinite;
+}
+
+@keyframes textanim{
+  25%{
+    content: "Graphic Designer";
+  }
+  50%{
+    content: "Illustrator";
+  }
+}

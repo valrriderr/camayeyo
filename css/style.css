@@ -48,11 +48,21 @@ html{
 
 .logo_text{
   font-family: 'Marcellus SC', serif;
-  font-size: 36px;
+  font-size: 40px;
   color: #111;
   background: linear-gradient(to left, #e6b980, #eacda3);
   -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
+}
+
+.language a{
+  font-family: 'Marcellus SC', serif;
+  color: #111;
+  background: linear-gradient(to left, #e6b980, #eacda3);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  margin-right: 0px;
 }
 
 .menu-toggler{
@@ -80,10 +90,11 @@ html{
   font-size: 20px;
   font-weight: 500;
   margin-left: 30px;
+  margin-right: 0px;
   transition: .2s linear;
   font-family: 'Noto Serif', serif;
   background: linear-gradient(to left, #e6b980, #eacda3);
-  -webkit-background-clip:text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -120,19 +131,19 @@ html{
   text-align: center;
 }
 
-#home .content{
+#home .contentru{
   width: 100%;
   color: #fff;
 }
 
-#home .content h1{
+#home .contentru h1{
   font-size: 50px;
   margin-bottom: 10px;
   font-family: 'Libre Caslon Display', serif;
   color: #2F4F4F;
 }
 
-#home .content h1::after{
+#home .contentru h1::after{
   content: "Художник";
   animation: textanim 10s linear infinite;
 }
