@@ -12,6 +12,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <script src="js/scripts.js"></script>
+  
 </head>
 <body>
  
@@ -116,9 +117,16 @@
       </div>
 
       <form action="send.php" class="contact-form"  method="POST">
+
+        <!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="admin@mail.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<!-- END Hidden Required Fields -->
+
         <input type="text" class="nameZone" name="user_name" placeholder="Ваше полное имя">
         <input type="email" class="emailZone" name="user_email" placeholder="Ваш почтовый адрес">
-        <textarea class="messageZone" name="text" placeholder="Введите текст сообщения"></textarea>
+        <textarea class="messageZone" name="form_subject" placeholder="Введите текст сообщения"></textarea>
         <input type="submit" value="Отправить сообщение" class="btn">
       </form>
     </div>
