@@ -28,7 +28,7 @@ $(document).ready(function(){
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php", //Change
+			url: "send.php", //Change
 			data: th.serialize()
 		}).done(function() {
 			alert("Thank you!");
