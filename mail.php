@@ -5,8 +5,8 @@ $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
 
 $name = $_POST['user_name'];
+$phone = $_POST['user_phone'];
 $email = $_POST['user_email'];
-$subject = $_POST['form_subject'];
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
@@ -28,8 +28,8 @@ $mail->addAddress('azizdusmuhamedov@gmail.com');     // Кому будет ух
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Заявка клиента';
-$mail->Body    = '' .$name  ' оставил заявку,почта этого пользователя: ' .$email,''.$subject;
+$mail->Subject = 'Заявка с тестового сайта';
+$mail->Body    = '' .$name . ' оставил заявку, его телефон ' .$phone. '<br>Почта этого пользователя: ' .$email;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
