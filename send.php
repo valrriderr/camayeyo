@@ -29,7 +29,7 @@ $mail->addAddress('azizdusmuhamedov@gmail.com');     // Кому будет ух
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка клиента';
-$mail->Body    = '' .$name.  ' оставил заявку,почта этого пользователя: ' .$email.<br> .$subject.;
+$mail->Body    = '' .$name.  ' оставил заявку,почта этого пользователя: ' .$email.<br /> .$subject.;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
