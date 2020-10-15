@@ -50,7 +50,7 @@ html{
   font-family: 'Marcellus SC', serif;
   font-size: 40px;
   color: #111;
-  background: linear-gradient(to left, #e6b980, #eacda3);
+  background: #1D1E33;
   -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
 }
@@ -58,7 +58,7 @@ html{
 .language a{
   font-family: 'Marcellus SC', serif;
   color: #111;
-  background: linear-gradient(to left, #e6b980, #eacda3);
+  background: #1D1E33;
   -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
   font-size: 20px;
@@ -79,21 +79,21 @@ html{
 .menu-toggler span{
   display: block;
   height: 3px;
-  background-color: #111;
+  background-color: #1D1E33;
   margin: 6px 0;
   position: relative;
   transition: .3s linear;
 }
 
 .navbar-menu a{
-  color: #111;
+  color: #FFCFAB;
   font-size: 20px;
   font-weight: 500;
   margin-left: 30px;
   margin-right: 0px;
   transition: .2s linear;
   font-family: 'Noto Serif', serif;
-  background: linear-gradient(to left, #e6b980, #eacda3);
+  background: #1D1E33;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -103,7 +103,7 @@ html{
 }
 
 .sticky{
-  background-color: #353b48;
+  background-color: #729EA1;
   padding: 18px 0;
 }
 
@@ -112,7 +112,7 @@ html{
 }
 
 .sticky .menu-toggler span{
-  background-color: #fff;
+  background-color: #1D1E33;
 }
 
 #home{
@@ -140,7 +140,7 @@ html{
   font-size: 48px;
   margin-bottom: 10px;
   font-family: 'Libre Caslon Display', serif;
-  color: #2F4F4F;
+  color: #1D1E33;
 }
 
 #home .contentru h1::after{
@@ -150,7 +150,7 @@ html{
 
 @keyframes textanim{
   25%{
-    content: "Дизайнер";
+    content: "Графический дизайнер";
   }
   50%{
     content: "Иллюстратор";
@@ -199,13 +199,13 @@ html{
 #home .buttons a:hover,
 #home .buttons a:nth-child(2)
 {
-  background: linear-gradient(to left, #e6b980, #eacda3);
+  background: linear-gradient(to left, #F08CAE, #F08CAE);
   color: #18394D  ;
 }
 
 section{
   padding: 100px 0;
-  background-color: #e6b980;
+  background-color: #729EA1;
 }
 
 .section-title{
@@ -224,7 +224,7 @@ section{
   position: absolute;
   width: 80px;
   height: 3px;
-  background-color: #111;
+  background-color: #612940;
   bottom: 0;
   left: calc(50% - 40px);
 }
@@ -244,14 +244,14 @@ section{
 }
 
 .about-text{
-  font-family: 'Libre Caslon Display', serif;
-  color: #2F4F4F;
+  font-family: "Ubuntu",sans-serif;
+  color: #1D1E33;
   flex: 1;
 }
 
 .about-text h3{
   margin: 10px 0;
-  color: #444;
+  color: #612940;
   font-size: 16px;
 }
 
@@ -267,7 +267,7 @@ section{
 }
 
 .about-text p{
-  font-size: 17px;
+  font-size: 20px;
   text-align: justify;
   line-height: 26px;
   margin-top: 20px;
@@ -550,7 +550,7 @@ footer{
   }
   
   .navbar-menu.active{
-    background-color: #353b48;
+    background-color: #BEB2C8;
     right: 0;
   }
 
@@ -573,11 +573,11 @@ footer{
   }
 
   .contactbg{
-    background-color: #e6b980;
+    background-color: #FDDB6D;
   }
 
   .about{
-    background-color: #e6b980;
+    background-color: #729EA1;
   }
 
   .about-pic{
