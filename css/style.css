@@ -148,15 +148,6 @@ html{
   animation: textanim 10s linear infinite;
 }
 
-@keyframes textanim{
-  25%{
-    content: "Графический дизайнер";
-  }
-  50%{
-    content: "Иллюстратор";
-  }
-}
-
 .sm a{
   color: #111;
   font-size: 29px;

@@ -7,7 +7,7 @@
   font-size: 50px;
   margin-bottom: 10px;
   font-family: 'Libre Caslon Display', serif;
-  color: #2F4F4F;
+  color: #1D1E33;
 }
 
 #home .contentit h1::after{
@@ -15,11 +15,3 @@
   animation: textanim 10s linear infinite;
 }
 
-@keyframes textanim{
-  25%{
-    content: "Grafico";
-  }
-  50%{
-    content: "Illustratore";
-  }
-}

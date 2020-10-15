@@ -7,19 +7,10 @@
   font-size: 50px;
   margin-bottom: 10px;
   font-family: 'Libre Caslon Display', serif;
-  color: #2F4F4F;
+  color: #1D1E33;
 }
 
 #home .contenten h1::after{
   content: "Artist";
   animation: textanim 10s linear infinite;
-}
-
-@keyframes textanim{
-  25%{
-    content: "Graphic Designer";
-  }
-  50%{
-    content: "Illustrator";
-  }
 }
