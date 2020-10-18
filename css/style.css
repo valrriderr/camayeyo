@@ -215,7 +215,7 @@ section{
   position: absolute;
   width: 80px;
   height: 3px;
-  background-color: #612940;
+  background-color: #DACC3E;
   bottom: 0;
   left: calc(50% - 40px);
 }
@@ -297,7 +297,7 @@ section.dark .section-title{
 }
 
 section.dark .section-title::before{
-  background-color: #f1f1f1;
+  background-color: #DACC3E;
 }
 
 section.dark .section-title::after{
