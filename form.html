@@ -10,15 +10,35 @@
 <body>
     <div class="wrapper">
         <div class="form">
-            <form action="#" id="form" class="form_body">
-                <h1 class="form_title">Оставьте свою заявку</h1>
-                <div class="form_item">
-                    <label for="formName" class="form_label">Имя*:</label>
-                    <input id="formName" type="text">
+            <form action="#" id="form" class="form__body">
+                <h1 class="form__title">Оставьте свою заявку</h1>
+                <div class="form__item">
+                    <label for="formName" class="form__label">Имя*:</label>
+                    <input id="formName" type="text" name="name" class="form__input">
                 </div>
+                <div class="form__item">
+                    <label for="formEmail" class="form__label">E-mail*:</label>
+                    <input id="formEmail" type="text" name="email" class="form__input">
+                </div>
+                <div class="form__item">
+                    <label for="formMessage" class="form_label">Сообщение*:</label>
+                    <textarea name="message" id="formMessage" class="form__input"></textarea>
+                </div>
+                <div class="form__item">
+                    <div class="form__label">Прикрепить фото</div>
+                    <div class="file">
+                        <div class="file__item">
+                            <input accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
+                            <div class="file__button">Выбрать</div>
+                        </div>
+                        <div class="file__prewiev"></div>
+                    </div>
+                </div>
+                <button type="submit" class="form__button">Отправить</button>
             </form>
         </div>
     </div>
     
+    <script src="js/scripts.js"></script>
 </body>
 </html>
