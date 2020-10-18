@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Marcellus+SC&family=Noto+Serif&display=swap');
 *{
   margin: 0;
@@ -21,7 +23,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: #353b48;
+  background-color: #171A21;
 }
 
 .navbar{
@@ -49,16 +51,16 @@ html{
 .logo_text{
   font-family: 'Marcellus SC', serif;
   font-size: 40px;
-  color: #111;
-  background: #1D1E33;
+  color: #F4F4F8;
+  background: #F4F4F8;
   -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
 }
 
 .language a{
   font-family: 'Marcellus SC', serif;
-  color: #111;
-  background: #1D1E33;
+  color: #F4F4F8;
+  background: #F4F4F8;
   -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
   font-size: 20px;
@@ -79,7 +81,7 @@ html{
 .menu-toggler span{
   display: block;
   height: 3px;
-  background-color: #1D1E33;
+  background-color: #F4F4F8;
   margin: 6px 0;
   position: relative;
   transition: .3s linear;
@@ -93,7 +95,7 @@ html{
   margin-right: 0px;
   transition: .2s linear;
   font-family: 'Noto Serif', serif;
-  background: #1D1E33;
+  background: #F4F4F8;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -103,7 +105,7 @@ html{
 }
 
 .sticky{
-  background-color: #729EA1;
+  background-color: #43BCCD;
   padding: 18px 0;
 }
 
@@ -112,13 +114,13 @@ html{
 }
 
 .sticky .menu-toggler span{
-  background-color: #1D1E33;
+  background-color: #F4F4F8;
 }
 
 #home{
   height: 100vh;
   min-height: 500px;
-  background: url(../images/bg.png) no-repeat;
+  background: url(../images/bg.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -137,10 +139,10 @@ html{
 }
 
 #home .contentru h1{
-  font-size: 48px;
+  font-size: 38px;
   margin-bottom: 10px;
-  font-family: 'Libre Caslon Display', serif;
-  color: #1D1E33;
+  font-family: 'Noto Serif', serif;
+  color: #F4F4F8;
 }
 
 #home .contentru h1::after{
@@ -149,14 +151,14 @@ html{
 }
 
 .sm a{
-  color: #111;
+  color: #F4F4F8;
   font-size: 29px;
   margin: 0 10px;
   transition: .2s linear;
 }
 
 .sm a:hover{
-  color: #e6b980;
+  color: #43BCCD;
 }
 
 .smbottom a{
@@ -177,11 +179,11 @@ html{
 #home .buttons a{
   display: inline-block;
   margin: 15px 30px;
-  color: #18394D  ;
+  color: #F4F4F8  ;
   font-size: 17px;
   font-weight: 500;
   width: 180px;
-  border: 1px solid #18394D ;
+  border: 1px solid #F4F4F8 ;
   padding: 14px 0;
   border-radius: 6px;
   transition: .2s linear;
@@ -190,13 +192,13 @@ html{
 #home .buttons a:hover,
 #home .buttons a:nth-child(2)
 {
-  background: linear-gradient(to left, #F08CAE, #F08CAE);
+  background: linear-gradient(to left, #43BCCD, #43BCCD);
   color: #18394D  ;
 }
 
 section{
   padding: 100px 0;
-  background-color: #729EA1;
+  background-color: #43BCCD;
 }
 
 .section-title{
@@ -215,7 +217,7 @@ section{
   position: absolute;
   width: 80px;
   height: 3px;
-  background-color: #DACC3E;
+  background-color: #1D1E33;
   bottom: 0;
   left: calc(50% - 40px);
 }
@@ -235,14 +237,14 @@ section{
 }
 
 .about-text{
-  font-family: "Ubuntu",sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: #1D1E33;
   flex: 1;
 }
 
 .about-text h3{
   margin: 10px 0;
-  color: #DACC3E;
+  color: #F4F4F8;
   font-size: 16px;
 }
 
@@ -251,53 +253,77 @@ section{
   content: "";
   width: 6px;
   height: 6px;
-  background-color: #444;
+  background-color: #171A21;
   display: inline-block;
   border-radius: 50%;
   margin: 0 14px;
 }
 
 .about-text p{
-  font-size: 20px;
-  text-align: justify;
+  font-size: 16px;
   line-height: 26px;
   margin-top: 20px;
 }
 
-.html:after{
+
+.skills{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skill{
+  width: calc(50% - 20px);
+  margin: 15px 0;
+}
+
+.skill-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-bar{
+  height: 3px;
+  background-color: #ddd;
+  margin-top: 14px;
+  position: relative;
+}
+
+.skill-bar::after{
+  content: "";
+  position: absolute;
+  height: 6px;
+  background-color: #171A21;
+  bottom: 0;
+}
+
+.photoshop:after{
   width: 90%;
 }
 
-.css:after{
-  width: 80%;
+.illustrator:after{
+  width: 40%;
 }
 
-.js:after{
-  width: 70%;
+.korean:after{
+  width: 85%;
 }
 
-.php:after{
-  width: 60%;
-}
-
-.mysql:after{
-  width: 90%;
-}
-
-.cs:after{
-  width: 80%;
+.italian:after{
+  width: 30%;
 }
 
 section.dark{
-  background-color: #353b48;
+  background: url(../images/bg.jpg);
 }
 
 section.dark .section-title{
-  color: #f1f1f1;
+  color: #F4F4F8;
 }
 
 section.dark .section-title::before{
-  background-color: #DACC3E;
+  background-color: #F4F4F8;
 }
 
 section.dark .section-title::after{
@@ -323,7 +349,7 @@ section.dark .section-title::after{
 }
 
 .service .icon{
-  color: #48dbfb;
+  color: #43BCCD;
   font-size: 40px;
   margin-bottom: 20px;
   transition: .3s linear;
@@ -335,7 +361,7 @@ section.dark .section-title::after{
 }
 
 .service:hover{
-  background-color: #48dbfb;
+  background-color: #43BCCD;
 }
 
 .service:hover .icon{
@@ -479,7 +505,7 @@ section.dark .section-title::after{
 }
 
 footer{
-  background: url(../images/bg.jpg) no-repeat center;
+  background-color: #43BCCD;
   color: #fff;
   padding: 80px 0;
   text-align: center;
@@ -504,11 +530,11 @@ footer{
   right: 40px;
   width: 40px;
   height: 40px;
-  background-color: #E0FFFF;
+  background-color: #171A21;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  color: #111;
+  color: #2AB7CA;
   outline: none;
   display: none;
 }
@@ -541,7 +567,7 @@ footer{
   }
   
   .navbar-menu.active{
-    background-color: #BEB2C8;
+    background-color: #171A21;
     right: 0;
   }
 
@@ -568,7 +594,7 @@ footer{
   }
 
   .about{
-    background-color: #729EA1;
+    background-color: #43BCCD;
   }
 
   .about-pic{
